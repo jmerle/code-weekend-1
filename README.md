@@ -1,6 +1,6 @@
 # Code Weekend 1
 
-[![Build Status](https://github.com/jmerle/code-weekend-1-gui/workflows/Build/badge.svg)](https://github.com/jmerle/code-weekend-1-gui/actions/workflows/build.yml)
+[![Build Status](https://github.com/jmerle/code-weekend-1/workflows/Build/badge.svg)](https://github.com/jmerle/code-weekend-1/actions/workflows/build.yml)
 
 This repository contains my code for the [Code Weekend 1](https://codeweekend.dev/) competition.
 
