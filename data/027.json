@@ -1,0 +1,215 @@
+{
+    "hero": {
+        "base_speed": 10,
+        "base_power": 42,
+        "base_range": 15,
+        "level_speed_coeff": 50,
+        "level_power_coeff": 50,
+        "level_range_coeff": 50
+    },
+    "start_x": 100,
+    "start_y": 32,
+    "width": 200,
+    "height": 100,
+    "num_turns": 47,
+    "monsters": [
+        {
+            "x": 24,
+            "y": 40,
+            "hp": 94,
+            "gold": 195,
+            "exp": 165,
+            "range": 15,
+            "attack": 20
+        },
+        {
+            "x": 128,
+            "y": 77,
+            "hp": 86,
+            "gold": 188,
+            "exp": 179,
+            "range": 9,
+            "attack": 24
+        },
+        {
+            "x": 173,
+            "y": 66,
+            "hp": 100,
+            "gold": 261,
+            "exp": 117,
+            "range": 19,
+            "attack": 35
+        },
+        {
+            "x": 115,
+            "y": 71,
+            "hp": 76,
+            "gold": 185,
+            "exp": 164,
+            "range": 9,
+            "attack": 22
+        },
+        {
+            "x": 171,
+            "y": 67,
+            "hp": 94,
+            "gold": 265,
+            "exp": 93,
+            "range": 21,
+            "attack": 33
+        },
+        {
+            "x": 176,
+            "y": 75,
+            "hp": 117,
+            "gold": 258,
+            "exp": 96,
+            "range": 14,
+            "attack": 33
+        },
+        {
+            "x": 193,
+            "y": 56,
+            "hp": 108,
+            "gold": 260,
+            "exp": 127,
+            "range": 18,
+            "attack": 30
+        },
+        {
+            "x": 7,
+            "y": 18,
+            "hp": 80,
+            "gold": 5,
+            "exp": 379,
+            "range": 16,
+            "attack": 21
+        },
+        {
+            "x": 163,
+            "y": 98,
+            "hp": 96,
+            "gold": 381,
+            "exp": 20,
+            "range": 22,
+            "attack": 28
+        },
+        {
+            "x": 146,
+            "y": 97,
+            "hp": 81,
+            "gold": 260,
+            "exp": 101,
+            "range": 14,
+            "attack": 19
+        },
+        {
+            "x": 160,
+            "y": 76,
+            "hp": 113,
+            "gold": 230,
+            "exp": 94,
+            "range": 12,
+            "attack": 28
+        },
+        {
+            "x": 23,
+            "y": 17,
+            "hp": 68,
+            "gold": 229,
+            "exp": 77,
+            "range": 12,
+            "attack": 23
+        },
+        {
+            "x": 31,
+            "y": 54,
+            "hp": 57,
+            "gold": 175,
+            "exp": 78,
+            "range": 14,
+            "attack": 22
+        },
+        {
+            "x": 32,
+            "y": 15,
+            "hp": 71,
+            "gold": 194,
+            "exp": 67,
+            "range": 14,
+            "attack": 16
+        },
+        {
+            "x": 20,
+            "y": 62,
+            "hp": 66,
+            "gold": 8,
+            "exp": 586,
+            "range": 13,
+            "attack": 15
+        },
+        {
+            "x": 136,
+            "y": 13,
+            "hp": 80,
+            "gold": 17,
+            "exp": 584,
+            "range": 7,
+            "attack": 31
+        },
+        {
+            "x": 44,
+            "y": 36,
+            "hp": 56,
+            "gold": 145,
+            "exp": 148,
+            "range": 13,
+            "attack": 11
+        },
+        {
+            "x": 195,
+            "y": 98,
+            "hp": 118,
+            "gold": 277,
+            "exp": 117,
+            "range": 20,
+            "attack": 44
+        },
+        {
+            "x": 50,
+            "y": 72,
+            "hp": 74,
+            "gold": 210,
+            "exp": 157,
+            "range": 14,
+            "attack": 27
+        },
+        {
+            "x": 26,
+            "y": 13,
+            "hp": 70,
+            "gold": 222,
+            "exp": 175,
+            "range": 8,
+            "attack": 28
+        },
+        {
+            "x": 42,
+            "y": 46,
+            "hp": 61,
+            "gold": 210,
+            "exp": 152,
+            "range": 5,
+            "attack": 25
+        },
+        {
+            "x": 53,
+            "y": 47,
+            "hp": 47,
+            "gold": 486,
+            "exp": 351,
+            "range": 23,
+            "attack": 6
+        }
+    ]
+}

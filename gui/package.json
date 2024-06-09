@@ -1,0 +1,101 @@
+{
+  "name": "code-weekend-1-gui",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "lint": "pnpm run \"/^lint:.*/\"",
+    "lint:eslint": "eslint --format codeframe '**/*.ts'",
+    "lint:prettier": "prettier --check '**/*.{ts,css,html,json}'",
+    "fix": "pnpm run --sequential \"/^fix:.*/\"",
+    "fix:eslint": "pnpm lint:eslint --fix",
+    "fix:prettier": "prettier --write '**/*.{ts,css,html,json}'"
+  },
+  "dependencies": {
+    "colormap": "^2.3.2",
+    "hotkeys-js": "^3.13.7",
+    "pixi-viewport": "^5.0.3",
+    "pixi.js": "^8.1.6",
+    "stats.js": "^0.17.0"
+  },
+  "devDependencies": {
+    "@types/colormap": "^2.3.4",
+    "@types/stats.js": "^0.17.3",
+    "@typescript-eslint/eslint-plugin": "^7.12.0",
+    "@typescript-eslint/parser": "^7.12.0",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-formatter-codeframe": "^7.32.1",
+    "eslint-plugin-import": "^2.29.1",
+    "prettier": "^3.3.1",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.13"
+  },
+  "eslintConfig": {
+    "root": true,
+    "extends": [
+      "eslint:recommended",
+      "plugin:@typescript-eslint/recommended",
+      "plugin:import/errors",
+      "plugin:import/warnings",
+      "plugin:import/typescript",
+      "prettier"
+    ],
+    "plugins": [
+      "@typescript-eslint",
+      "import"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+      "ecmaVersion": "latest",
+      "sourceType": "module"
+    },
+    "env": {
+      "browser": true,
+      "node": true
+    },
+    "rules": {
+      "@typescript-eslint/no-explicit-any": "off",
+      "@typescript-eslint/explicit-member-accessibility": "error",
+      "@typescript-eslint/no-inferrable-types": "off",
+      "@typescript-eslint/no-var-requires": "off",
+      "@typescript-eslint/explicit-function-return-type": [
+        "error",
+        {
+          "allowExpressions": true
+        }
+      ],
+      "@typescript-eslint/explicit-module-boundary-types": [
+        "error",
+        {
+          "allowArgumentsExplicitlyTypedAsAny": true
+        }
+      ],
+      "import/order": [
+        "error",
+        {
+          "alphabetize": {
+            "order": "asc",
+            "caseInsensitive": true
+          }
+        }
+      ],
+      "sort-imports": [
+        "error",
+        {
+          "ignoreCase": true,
+          "ignoreDeclarationSort": true
+        }
+      ]
+    }
+  },
+  "prettier": {
+    "printWidth": 120,
+    "singleQuote": true,
+    "trailingComma": "all",
+    "arrowParens": "avoid"
+  }
+}

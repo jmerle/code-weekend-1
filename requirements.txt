@@ -1,0 +1,7 @@
+conan
+ipywidgets
+jupyterlab
+pandas
+plotly
+python-dotenv
+requests
