@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Code Weekend 1 GUI</title>
+
+    <script type="module" crossorigin src="./assets/index-BncP8gNB.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-BDQUKjjM.css">
+  </head>
+  <body>
+    <main>
+      Test file:
+      <input type="file" id="test-selector" />
+      Actions file:
+      <input type="file" id="actions-selector" />
+      API token:
+      <input type="password" id="api-token" />
+
+      <p id="test-summary"></p>
+
+      Color field:
+      <select id="color-field">
+        <option value="gold">gold</option>
+        <option value="gold-hp">gold/hp</option>
+        <option value="exp">exp</option>
+        <option value="exp-hp">exp/hp</option>
+        <option value="hp">hp</option>
+        <option value="attack">attack</option>
+        <option value="range">range</option>
+      </select>
+
+      Id:
+      <input type="number" id="id-min" min="0" placeholder="Min" />
+      <input type="number" id="id-max" min="0" placeholder="Max" />
+
+      HP:
+      <input type="number" id="hp-min" min="0" placeholder="Min" />
+      <input type="number" id="hp-max" min="0" placeholder="Max" />
+
+      Gold:
+      <input type="number" id="gold-min" min="0" placeholder="Min" />
+      <input type="number" id="gold-max" min="0" placeholder="Max" />
+
+      Exp:
+      <input type="number" id="exp-min" min="0" placeholder="Min" />
+      <input type="number" id="exp-max" min="0" placeholder="Max" />
+
+      Range:
+      <input type="number" id="range-min" min="0" placeholder="Min" />
+      <input type="number" id="range-max" min="0" placeholder="Max" />
+
+      Attack:
+      <input type="number" id="attack-min" min="0" placeholder="Min" />
+      <input type="number" id="attack-max" min="0" placeholder="Max" />
+
+      Delete last:
+      <input type="number" id="delete-last" min="1" value="1" />
+
+      <p>A = attack, S = move and attack, D = move, G = submit, J = delete last, L = download actions</p>
+      <p id="actions-summary"></p>
+      <p id="state-summary"></p>
+    </main>
+
+  </body>
+</html>
